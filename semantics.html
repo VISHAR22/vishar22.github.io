@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Форма для заполнения</title>
+</head>
+<body>
+    <header>
+        <div class="head1" id="ok">
+            <div class="sub_head1"></div>
+            <div class="sub_head2"></div>
+        </div>
+
+    </header>
+    <nav>
+
+    </nav>
+    <main>
+        <section>
+            
+        </section>
+        <figure>
+
+        </figure>
+    </main>
+
+
+
+    <h1>Forms</h1>
+
+    <form action="https://www.google.com/search" method="get">
+        <fieldset>
+            <legend>LOGIN INFORMATION</legend>
+            <input type="text" name="q" placeholder="Your search" maxlength="50" >
+            <input type="password" name="pass" placeholder="Your password" required>
+            <input type="text" name="phone" pattern="+371-[0-9]{8}-" maxlength="8">
+        </fieldset>
+        <fieldset>
+            <legend>USER INFORMATION</legend>
+
+        
+
+          <input type="date">
+          <input type="time"><br>
+          <input type="checkbox" name="chk1" value="1">
+          <input type="checkbox" name="chk2" value="2">
+          <br>
+          <input type="radio" name="rad1" value="2" id="rad1"><label for="rad1">Male</label>
+          <input type="radio" name="rad1" value="3" id="rad2"><label for="rad2">Female</label>
+          <input type="number" max="10" min="0" step="2">
+          <input type="range" min="0" max="10" step="2">
+          <input type="submit" value="Отправить">
+          <input type="reset" value="Очистить">
+        </fieldset>
+
+        <select name="YEAR" id="" multiple size="3" disabled>
+
+            <option value="">Год рождения</option>
+            <option value="2003">2003</option>
+            <option value="2004">2004</option>
+            <option value="2005">2005</option>
+            <option value="2006">2006</option>
+            <option value="2006">2006</option>
+            <option value="2006">2006</option>
+            <option value="2006" selected>2009</option>
+            <option value="2006">2006</option>
+            <option value="2006">2006</option>
+            <option value="2006">2006</option>
+
+        </select>
+
+        <textarea name="message" id="" cols="30" rows="10" maxlength="50">
+
+        </textarea>
+
+
+        
+
+    </form>
+</body>
+</html>
