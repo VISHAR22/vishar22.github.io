@@ -1,0 +1,110 @@
+body {
+    padding: 0; margin: 0;
+    background: rgb(34, 34, 34);
+
+
+}
+
+div.upper {
+    background: #008799;
+    height: 100%;
+    margin: auto;
+    font-family: 'Lobster', cursive;
+    
+    
+}
+
+p.MainText {
+    font-family: 'Lobster', cursive;
+    font-size: 85px;
+    color: white;
+    
+}
+
+
+img.leftimg {
+    float: left;
+    margin: 10px;
+    margin-left: 150px;
+    margin-top: 150px;
+
+
+}
+
+img.rightimg {
+    float: right;
+    margin: 10px;
+    margin-right: 150px;
+    margin-top: 50px;
+
+}
+
+pre.textleft {
+    padding-top:200px;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Lobster', cursive;
+}
+
+pre.textright{
+    padding-top:50px;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Lobster', cursive;
+}
+
+div.stage1{
+    background: coral;
+    height: 95px;
+    width: 350px;
+    border: solid 5px black;
+    margin-left: 1000px;
+    margin-top: 50px;
+    font-size: 60px;
+    
+}
+
+div.stage2{
+    background: coral;
+    height: 95px;
+    width: 350px;
+    border: solid 5px black;
+    margin-left: 450px;
+    font-size: 60px;
+    
+}
+
+pre.textleftlol{
+    padding-top:50px;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Lobster', cursive;
+}
+
+pre.textleftt{
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Lobster', cursive;
+}
+
+
+div.buttonYT{
+    position:relative;
+    left:100px;
+    
+}
+
+div.buttonVK{
+    position:relative;
+    left:1500px;
+    margin-top: -90px;
+    
+}
+
+img.IMGC{
+    margin-top  : -100px;
+
+
+
+}
+
